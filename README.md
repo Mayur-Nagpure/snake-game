@@ -65,7 +65,7 @@ Python 3.8+ (if running from source)
 ## 🎥 Gameplay Demo
 ![Snake Game Demo](images/snake-game.gif)
 
---
+---
 
 
 ## ✅ Educational project demonstrating practical DSA concepts through game development.
