@@ -1,20 +1,20 @@
-🐍 Snake Game - DSA Demonstration
+# 🐍 Snake Game 
 
 A fully functional Snake Game built in Python using pygame and collections.deque, showcasing practical applications of Data Structures and Algorithms in game development.
 
-🎯 What You'll Learn
+## 🎯 Learning
 
-collections.deque – Efficient O(1) operations for snake movement
+**collections.deque** – Efficient O(1) operations for snake movement
 
-Set operations – Fast collision detection (O(1) lookup)
+**Set operations** – Fast collision detection (O(1) lookup)
 
-Algorithmic thinking – Time complexity analysis in practice
+**Algorithmic thinking**– Time complexity analysis in practice
 
-Event-driven programming – Using pygame for input and rendering
+**Event-driven programming** – Using pygame for input and rendering
 
-🕹 How to Play
+## 🕹 How to Play
 
-Controls:
+**Controls:**
 
 Arrow Keys / WASD → Move the snake
 
@@ -24,19 +24,21 @@ ESC → Quit the game
 
 Goal: Eat food (red block) to grow and increase your score.
 
-🚀 Quick Start
-Option 1: Run from Source
+## 🚀 Quick Start
+**Option 1:** Run from Source
 git clone https://github.com/Mayur-Nagpure/snake-game.git
 cd snake-game
 pip install -r requirements.txt
 python main.py
 
-Option 2: Download Executable
+**Option 2:** Download Executable
 
 Get the latest .exe or .zip from the Releases
  section.
 
 Double-click to play (no Python required).
+
+---
 
 🖥 System Requirements
 
@@ -46,26 +48,24 @@ Python 3.8+ (if running from source)
 
 50MB free disk space
 
+---
+
 🔍 DSA Concepts in Action
 
-collections.deque → O(1) append/pop for snake body
+**collections.deque** → O(1) append/pop for snake body
 
-Set → O(1) collision checks
+**Set** → O(1) collision checks
 
-Random Sampling → Efficient food placement
+**Random Sampling** → Efficient food placement
 
-Event Queue → Handles user input in real time
+**Event Queue** → Handles user input in real time
 
-📸 Demo
+---
+
+## 🎥 Gameplay Demo
+![Snake Game Demo](images/snake-game.gif)
+
+--
 
 
-
-
-
-🐛 Issues & Contributions
-
-Found a bug? Open an issue.
-
-Want to improve the game? Fork and create a pull request.
-
-✅ Educational project demonstrating practical DSA concepts through game development.
+## ✅ Educational project demonstrating practical DSA concepts through game development.
