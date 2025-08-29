@@ -1,33 +1,71 @@
-# 🐍 Snake Game - DSA Demonstration
+🐍 Snake Game - DSA Demonstration
 
 A fully functional Snake Game built in Python using pygame and collections.deque, showcasing practical applications of Data Structures and Algorithms in game development.
 
-## 🎯 DSA Concepts 
+🎯 What You'll Learn
 
-### 1. **Collections.deque** - Double-ended Queue
-- **Use Case**: Snake body management
-- **Efficiency**: O(1) append/pop operations at both ends
-- **Why not List?**: Lists have O(n) insertion at the beginning
-- **Implementation**: Head additions and tail removals in constant time
+collections.deque – Efficient O(1) operations for snake movement
 
-### 2. **Set Operations**
-- **Use Case**: Collision detection optimization
-- **Efficiency**: O(1) average lookup time vs O(n) for lists
-- **Implementation**: Converting snake positions to set for fast collision checks
+Set operations – Fast collision detection (O(1) lookup)
 
-### 3. **Random Sampling**
-- **Use Case**: Food placement algorithm
-- **Implementation**: Efficient selection from valid grid positions
+Algorithmic thinking – Time complexity analysis in practice
 
-### 4. **Event-Driven Programming**
-- **Use Case**: Game input handling
-- **Implementation**: Queue-based event processing with pygame
+Event-driven programming – Using pygame for input and rendering
 
-## 🚀 Quick Start
+🕹 How to Play
 
-### Local Installation
+Controls:
 
-1. **Clone/Download** the project
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
+Arrow Keys / WASD → Move the snake
+
+R → Restart after Game Over
+
+ESC → Quit the game
+
+Goal: Eat food (red block) to grow and increase your score.
+
+🚀 Quick Start
+Option 1: Run from Source
+git clone https://github.com/Mayur-Nagpure/snake-game.git
+cd snake-game
+pip install -r requirements.txt
+python main.py
+
+Option 2: Download Executable
+
+Get the latest .exe or .zip from the Releases
+ section.
+
+Double-click to play (no Python required).
+
+🖥 System Requirements
+
+Windows 10+, macOS 10.14+, or Linux
+
+Python 3.8+ (if running from source)
+
+50MB free disk space
+
+🔍 DSA Concepts in Action
+
+collections.deque → O(1) append/pop for snake body
+
+Set → O(1) collision checks
+
+Random Sampling → Efficient food placement
+
+Event Queue → Handles user input in real time
+
+📸 Demo
+
+
+
+
+
+🐛 Issues & Contributions
+
+Found a bug? Open an issue.
+
+Want to improve the game? Fork and create a pull request.
+
+✅ Educational project demonstrating practical DSA concepts through game development.
